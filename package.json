@@ -1,12 +1,13 @@
 {
     "name": "social-media",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "private": true,
     "scripts": {
         "dev": "next dev --turbo -p 8000",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "change_version": "npm --no-git-tag-version version patch"
     },
     "dependencies": {
         "react": "19.0.0-rc-f994737d14-20240522",
